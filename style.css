@@ -1,0 +1,171 @@
+body {
+  margin: 0%;
+  background-color: #619b8a;
+}
+.container {
+  width: 100%;
+  height: 1200px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #619b8a;
+}
+
+.navbar {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: 60px;
+  background-color: #233d4d;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  box-shadow: 10px 0px 30px #056094;
+  position: sticky;
+  top: 0px;
+  z-index: 8;
+}
+#links {
+  width: 320px;
+  height: 60px;
+  background-color: #233d4d;
+  position: relative;
+  right: -821px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar a {
+  margin: 10px;
+  position: relative;
+  left: 10px;
+  transition: all 0.1s ease-in-out;
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #087e8b;
+}
+
+.navbar img {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  left: 44px;
+}
+
+.navbar h2 {
+  left: 32px;
+  position: relative;
+}
+
+.content {
+  font-family: "Roboto Slab", serif;
+  background-color: white;
+  width: 100%;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #619b8a;
+}
+#welcome {
+  text-align: center;
+  font-size: 60px;
+}
+#about {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  position: relative;
+  top: -5px;
+  background-color: #619b8a;
+}
+#about-us {
+  height: 440px;
+  text-align: center;
+  padding-top: 30px;
+}
+#about-us img {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px grey;
+}
+#about-us h2 {
+  font-size: 40px;
+}
+#about-us div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#about-us p {
+  font-size: 30px;
+}
+#wrap {
+  width: 500px;
+}
+hr {
+  width: 1100px;
+  background-color: black;
+  margin: 63px auto;
+}
+#contact {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  position: relative;
+  top: -40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #619b8a;
+}
+#contact-us {
+  width: 70%;
+  height: 374px;
+  text-align: center;
+  position: relative;
+  top: 70px;
+  left: -15px;
+}
+#contact-us h2 {
+  font-size: 40px;
+  position: relative;
+  left: 42px;
+  top: 8px;
+}
+#contact-us form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: -335px;
+  top: 20px;
+  width: 380px;
+}
+#email {
+  height: 30px;
+  border: 0px;
+  border-radius: 10px;
+}
+#message {
+  height: 30px;
+  border: 0px;
+  border-radius: 10px;
+  margin-top: -7px;
+}
+
+#submit {
+  width: 60px;
+  height: 30px;
+  border: 0px;
+  border-radius: 10px;
+  position: relative;
+  top: 12px;
+  right: -153px;
+  margin-top: -7px;
+}

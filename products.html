@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GYM Shop</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./products.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="navbar">
+        <h2>GYM Shop</h2>
+        <img src="./images/shopping-cart.png" alt="" />
+        <div id="links">
+          <a href="./products.html">Products</a>
+          <a href="./index.html#about">About us</a>
+          <a href="./index.html#contacct">Contact us</a>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Products</h1>
+        <div id="line1">
+          <div class="card" id="item1">
+            <img src="./images/Dumbbells.jpg" alt="Dumbbells" />
+            <h4 id="title">Apus Hex Dumbbells - 4 kg Pair</h4>
+            <h5 id="sh5">Price: 16.000 KD</h5>
+            <button class="bts" onclick="addToCart(item1)" onclick="totalCost">
+              Add to cart
+            </button>
+          </div>
+          <div class="card" id="item2">
+            <img src="./images/Kettlebell 24KG.png" alt="Kettlebell" />
+            <h4 id="title">Cast Iron Kettlebell - 5 kg</h4>
+            <h5>Price: 10.000 KD</h5>
+            <button
+              class="bts"
+              id="bu"
+              onclick="addToCart(item2)"
+              onclick="totalCost"
+            >
+              Add to cart
+            </button>
+          </div>
+          <div class="card" id="item3">
+            <img src="./images/Weight bar.png" alt="eight bar" />
+            <h4 id="title">Chrome Rubber Straight Barbell - 30 kg</h4>
+            <h5 id="sh5">Price: 75.000 KD</h5>
+            <button class="bts" onclick="addToCart(item3)" onclick="totalCost">
+              Add to cart
+            </button>
+          </div>
+        </div>
+        <div id="line2">
+          <div class="card" id="item4">
+            <img src="./images/Tread mill.png" alt="Tread mill" />
+            <h4 id="title">Horizon 7.0 AT Treadmill</h4>
+            <h5>Price: 766.000 KD</h5>
+            <button
+              class="bts"
+              id="bu"
+              onclick="addToCart(item4)"
+              onclick="totalCost"
+            >
+              Add to cart
+            </button>
+          </div>
+          <div class="card" id="item5">
+            <img src="./images/Indoor Cycle.png" alt="Indoor cycle" />
+            <h4 id="title">Horizon GR7 Indoor Cycle</h4>
+            <h5>Price: 582.000 KD</h5>
+            <button
+              class="bts"
+              id="bu"
+              onclick="addToCart(item5)"
+              onclick="totalCost"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+        <div id="span">
+          <h1 id="ctilte">Cart <span>0</span></h1>
+        </div>
+
+        <div class="cart" id="cart"></div>
+        <div id="totalCost">
+          <button id="btnTotal">Total</button>
+          <div id="h3type"><h3 id="h3"></h3></div>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </div>
+    <script src="./products.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
